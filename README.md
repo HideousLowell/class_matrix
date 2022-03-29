@@ -16,6 +16,8 @@
 | `double determinant()` | Calculates and returns the determinant of the current matrix | the matrix is not square |
 | `S21Matrix inverse_matrix()` | Calculates and returns the inverse matrix | matrix determinant is 0 |
 
+Constructors and dectructors:
+
 | Method | Description |
 | ----------- | ----------- |
 | `S21Matrix()` | A basic constructor that initialises a matrix of some predefined dimension |  
@@ -23,6 +25,8 @@
 | `S21Matrix(const S21Matrix& other)` | Copy constructor |
 | `S21Matrix(S21Matrix&& other)` | Move constructor |
 | `~S21Matrix()` | Destructor |
+
+Overloading operators:
 
 | Operator | Description | Exceptional situations |
 | ----------- | ----------- | ----------- |
